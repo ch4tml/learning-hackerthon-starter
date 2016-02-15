@@ -14,7 +14,8 @@ exports.getLogin = function(req, res) {
     return res.redirect('/');
   }
   res.render('account/login', {
-    title: 'Login'
+    title: 'Login',
+    author: "ch4tml"
   });
 };
 
@@ -69,7 +70,8 @@ exports.getSignup = function(req, res) {
     return res.redirect('/');
   }
   res.render('account/signup', {
-    title: 'Create Account'
+    title: 'Create Account',
+    author: "ch4tml"
   });
 };
 
